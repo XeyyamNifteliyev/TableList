@@ -1,0 +1,69 @@
+
+
+#h_tr{
+   border: 2px solid black;
+}
+#b_tr{
+   border: 2px solid black !important;
+   background: red;
+   color: white;
+}
+td{
+    width: 100px;
+}
+
+
+#tbl{
+    margin: auto;
+   
+    
+}
+
+.left,.right{
+    border: 2px solid black;
+    width: 50%;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+#number{
+    width: 80px;
+}
+button{cursor: pointer;min-width: 70px;}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+select{cursor: pointer;width: 100px;height: 30px;}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    border: 2px solid black;
+    margin-top: 50px;
+}
+
+.cards .ana{
+    background: rgb(40, 36, 36);
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 40px;
+    color: white;
+    gap: 10px;
+}
+
+
+
+
